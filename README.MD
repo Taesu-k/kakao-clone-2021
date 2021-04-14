@@ -1,3 +1,3 @@
-# kakao clone 2020
+# kakao clone 2021
 
-css got so much better!
+HTML and CSS are so fun!!
