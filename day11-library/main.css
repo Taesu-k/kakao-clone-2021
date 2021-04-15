@@ -1,0 +1,95 @@
+.book-of-day-title {
+  padding-left: 20px;
+}
+.book-of-day {
+  display: flex;
+  padding-left: 20px;
+}
+.book-of-day__img {
+  height: 160px;
+  width: 105px;
+  border-radius: 10px;
+}
+.book-of-day__right {
+  width: 100%;
+}
+.book-of-day__right-top {
+  margin: 0;
+  list-style: none;
+  padding-left: 10px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.book-of-day__category-box {
+  display: flex;
+  margin: 15px 0px;
+  padding-left: 10px;
+  width: 100%;
+}
+.book-of-day__category {
+  background-color: rgba(121, 121, 121, 0.1);
+  font-size: 15px;
+  padding: 0px 10px;
+}
+.book-of-day__category:nth-child(2) {
+  margin-left: 25px;
+}
+.book-of-day__button-box {
+  display: flex;
+  padding-left: 10px;
+}
+.book-of-day__book-mark {
+  background-color: #ffce33;
+  padding: 7px 10px;
+  border-radius: 50%;
+}
+.book-of-day__button {
+  margin-left: 40px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  background-color: #000000;
+}
+.top-adventures-title {
+  padding-left: 20px;
+}
+.top-adventures {
+  display: flex;
+}
+.top-adventures__picture-box {
+  padding-left: 20px;
+}
+
+.top-adventures__img {
+  height: 110px;
+  width: 65px;
+  border-radius: 5px;
+}
+.Popular-authors-title {
+  margin: 15px;
+}
+.popular-authors {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-authors__left {
+  margin-left: 15px;
+}
+.popular-authors__left img {
+  width: 100px;
+  height: 215px;
+  border-radius: 10px;
+}
+.popular-authors__right {
+  padding-left: 10px;
+}
+.popular-authors__right-top {
+  font-size: 25px;
+  margin: 0;
+}
+.popular-authors__right-bottom {
+  font-size: 13px;
+}
