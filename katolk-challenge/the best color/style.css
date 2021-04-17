@@ -1,0 +1,63 @@
+html {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 45vw;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.container {
+  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 150px 150px 150px;
+}
+
+.container > div {
+  margin: 10px;
+  flex: 1 1 40%;
+  border: 5px solid #ffffff;
+  background-color: black;
+  display: flex;
+}
+.container > div:nth-child(1) {
+  background-color: tomato;
+}
+.container > div:nth-child(2) {
+  background-color: teal;
+}
+.container > div:nth-child(3) {
+  background-color: burlywood;
+}
+.container > div:nth-child(4) {
+  background-color: thistle;
+}
+.sun {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sun div {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.sun div:nth-child(2) {
+  font-size: 15px;
+}
