@@ -1,0 +1,55 @@
+.main-screen-right__avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main-screen-right__avatar img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px red;
+}
+.main-screen-right__main-title-box {
+  text-align: center;
+  margin-top: 30px;
+}
+.main-screen-right__main-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-screen-right__sub-title {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+input[type="range"] {
+  height: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.main-screen-right__play-time {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+.main-screen-right__button-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+.main-screen-right__play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.main-screen-right__button-box > i:first-child,
+.main-screen-right__button-box > i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,117 @@
+.main-screen-left__avatar-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-screen-left__avatar {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 15px tomato;
+}
+.main-screen-left__title-box {
+  text-align: center;
+  margin-top: 30px;
+}
+.main-screen-left__main-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-screen-left__sub-title {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+.main-screen-left__button-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+.main-screen-left__button {
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.main-screen-left__shuffle-button {
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  width: 50%;
+}
+.main-screen-left__like-button {
+  background-color: #f2f2f4;
+  margin-left: 5px;
+
+  width: 50%;
+}
+.main-screen-left__like-button i {
+  color: red;
+}
+.main-screen-left__playlist-box {
+  height: 300px
+  margin-top: 25px;
+}
+.main-screen-left__playlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  padding: 5px;
+  margin: 10px 0px;
+}
+.main-screen-left__playlist:nth-child(2) {
+  background-color: #f2f2f4;
+  position: relative;
+}
+
+.main-screen-left__playlist-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+.main-screen-left__playlist-title-box {
+  position: absolute;
+  left: 80px;
+}
+.main-screen-left__playlist-main-title {
+  color: rgba(0, 0, 0, 0.3);
+}
+.main-screen-left__playlist-sub-title {
+  font-size: 18px;
+}
+.main-screen-left__playlist:nth-child(2) img {
+  opacity: 0.5;
+}
+
+.main-screen-left__play-imoge {
+  position: absolute;
+  left: 12px;
+  bottom: 20px;
+}
+.main-screen-left__player-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.main-screen-left__player-imoge-box i {
+    margin: 10px;    
+}
+.main-screen-left__player-data{
+    padding-left: 10px;
+}
+.main-screen-left__player-main-title{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.main-screen-left__player-sub-tltle{
+    font-size: 12px;
+    color: rgba(255,255,255,0.5)
+}
