@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 20px;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header_title {
   font-size: 30px;
@@ -12,6 +13,23 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
-.friends-main {
-  padding: 0px var(--horizontal-space);
+.screen-header__icons span:last-child {
+  position: relative;
+}
+.screen-header__red-dot {
+  position: absolute;
+  right: -8px;
+  top: -2px;
+}
+@keyframes cog-spin {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: cog-spin 2s linear infinite;
 }

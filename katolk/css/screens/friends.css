@@ -1,10 +1,20 @@
+@keyframes hide-splash-screen {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 .friends-display-link {
   display: block;
   text-align: center;
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: -15px;
 }
 .friends-display-link i:first-child {
   color: rgba(0, 0, 0, 0.3);
@@ -13,4 +23,34 @@
 .friends-display-link i:last-child {
   color: rgba(0, 0, 0, 0.3);
   margin-left: 5px;
+}
+.friends-main__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  margin-bottom: 30px;
+  padding: 15px 0px;
+}
+.friends-main__channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+}
+.splash-screen {
+  position: absolute;
+  background-color: var(--yellow);
+  height: 105vh;
+  width: 500px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  color: #3c1e1e;
+  animation: hide-splash-screen 0.4s 1s ease-in-out forwards;
+}
+.friend-nav__li {
+  animation: ul-ani2 1.7s ease-in-out forwards;
+}
+.friend-nav__li {
+  transform: translateY(80px);
 }
